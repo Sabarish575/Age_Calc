@@ -153,7 +153,7 @@ function Age(){
                     <label htmlFor="year">YEAR</label>
                     <input 
                         id="year" 
-                        type="year"
+                        type="number"
                         placeholder="YYYY"
                         value={inpyear}
                         onChange={(e)=>setInpYear(e.target.value)}
